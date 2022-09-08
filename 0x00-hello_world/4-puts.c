@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -entry to print
+ * main -Entry point.
  *
- * use the function puts.
- * you are not allowed to use printf.
- * your program should end with the value zero
+ * Use the function puts.
+ * You are not allowed to use printf.
+ * Your program should end with the value zero
  *
  * Return: 0
  */
