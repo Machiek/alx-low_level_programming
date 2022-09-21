@@ -1,29 +1,15 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
- * @dest: String to append to
- * @src: string to add
+ * reset_to_98 - function that takes a pointer to an int as  parameter and,
+ * updates value to 98.
+ * @n: integer
  *
- * Return: a pointer to the resulting string
+ * Return: No return.
  */
-char *_strcat(char *dest, char *src)
+
+void reset_to_98(int *n)
 {
-	int i, j;
-
-	i = 0;
-	j = 0;
-
-	while (dest[i] != '\0')
-		i++;
-	while (src(j) != '\0')
-	{
-		dest[j] = src[j];
-		j++;
-		i++;
-	}
-
-	dest[i] = '\0';
-
-	return (dest);
+	*n = 98;
 }
