@@ -4,12 +4,14 @@
 
 /**
  * print_rev - function that prints a string in reverse followed by a new line.
- * @s: pointer to the string to be reversed.
+ * @s: Pointer to the string to be reversed.
  *
  * Return: No return.
  */
-void print_re(char *s)
+
+void print_rev(char *s)
 {
+
 	int len;
 
 	for (len = 0; s[len] != '\0'; len++)
@@ -19,5 +21,7 @@ void print_re(char *s)
 	{
 		putchar(s[len]);
 	}
+
 	putchar('\n');
 }
+
